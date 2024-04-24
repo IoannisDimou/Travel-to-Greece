@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>PandarenTravel</title>
+</head>
+<body>
+    <div class="background-image-container">
+        <nav id="color1"> 
+            <a href="#" class="space10">PandarenTravel</a>
+            <a href="#" class="space" onclick="showHome()">Home</a>
+            <a href="#" class="space1" onclick="showAboutUs()">About us</a>
+            <a href="#" class="space2">Contact Us</a>
+            <input id="type" size="60" placeholder="Enter a destination or keyword">
+            <button id="search" onclick="searchfunction()">Search</button>
+            <button id="clear" onclick="clearfunction()">Clear</button>
+        </nav>
+        <div class="home" id="homeSection">
+            <h1> EXPLORE <br> PANDAREN <br> TRAVEL </h1>
+        </div>
+        <div class="AboutUs" id="aboutUsSection" style="display:none;">
+            <h1>About Us</h1>
+            <p>This is a fantastic place to travel to! It has everything you have ever dreamed of.</p>
+        </div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+    <script>
+        function showHome() {
+            document.getElementById('homeSection').style.display = 'block';
+            document.getElementById('aboutUsSection').style.display = 'none';
+            document.getElementById('type').style.display = 'inline-block'; // Show input field
+            document.getElementById('search').style.display = 'inline-block'; // Show search button
+            document.getElementById('clear').style.display = 'inline-block'; // Show clear button
+        }
+
+        function showAboutUs() {
+            document.getElementById('homeSection').style.display = 'none';
+            document.getElementById('aboutUsSection').style.display = 'block';
+            document.getElementById('type').style.display = 'none'; // Hide input field
+            document.getElementById('search').style.display = 'none'; // Hide search button
+            document.getElementById('clear').style.display = 'none'; // Hide clear button
+        }
+    </script>
+</body>
+</html>
