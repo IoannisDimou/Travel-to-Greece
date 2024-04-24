@@ -1,0 +1,83 @@
+.space{
+    position:absolute;
+    margin-left:700px;
+    color:white;
+    text-decoration: none;
+    top:13px;
+}
+.space1{
+    position:absolute;
+    margin-left:760px;
+    color:white;
+    text-decoration: none;
+    top:13px;
+}
+.space2{
+    position:absolute;
+    margin-left:835px;
+    color:white;
+    text-decoration: none;
+    top:13px;
+}
+#color1{
+    height:30px;
+    background-color:rgba(6, 55, 75, 0.822);
+}
+.space10{
+    color:white;
+    text-decoration: none;
+}
+#type{
+    font-size:19px;
+    position:absolute;
+    right:8px;
+    top:10px;
+    border:none;
+    border-radius:12px;
+    
+    
+}
+#search{
+    position:absolute;
+    right:90px;
+    top:12px;
+    background-color: rgb(3, 101, 139);
+    color:White;
+    text-decoration: none;
+    border:none;
+    font-size:15px;
+}
+#clear{
+    position:absolute;
+    right:30px;
+    top:12px;
+    background-color: rgb(3, 101, 139);
+    color:White;
+    text-decoration: none;
+    border:none;
+    font-size:15px;
+
+}
+.home{
+    position:absolute;
+    top:300px;
+    left:300px;
+    color:white;
+}
+body{
+    background-image:url('/panda.png');
+    background-size: cover;
+    background-position: 50% 20%;
+    margin:0;
+    padding-bottom: 100px;
+    
+}
+.AboutUs{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust background color as needed */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
